@@ -148,9 +148,14 @@ nav li a {
 }
 
 .collection-container {
-    margin: 10px 120px ;
+    margin: 10px auto ;
     border: 1px solid slateblue;
     /* padding: 50px; */
+    max-width: 1180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -163,10 +168,9 @@ nav li a {
 .collection-content {
 
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3,330px);
     justify-items: center;
-    row-gap: 30px;
-    /* column-gap: 30px; */
+    gap: 30px;
     border: 1px solid red;
 }
 
@@ -187,4 +191,16 @@ nav li a {
 .collection-item-img {
     width: 300px;
 
+}
+.rate{
+    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.fa-solid{
+    color: #FB8200;
+    display: inline;
 }

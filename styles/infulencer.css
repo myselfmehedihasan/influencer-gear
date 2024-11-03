@@ -139,7 +139,7 @@ nav li a {
 .online-store {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     /* border: 1px solid saddlebrown; */
 }
 
@@ -149,7 +149,7 @@ nav li a {
     justify-content: center;
     align-items: center;
     gap: 60px;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     /* border: 2px solid blueviolet; */
 }
 

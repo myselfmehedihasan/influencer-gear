@@ -1,3 +1,153 @@
 @media screen and (max-width: 576px) {
+    nav {
+        flex-direction: column;
+        max-width: 350px;
+    }
+
+
+    header {
+        padding: 30px;
+
+    }
+
+    nav>ul {
+        gap: 15px;
+        margin-right: 34px;
+        padding-top: -30px;
+        width: 320px;
+
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+        max-width: 350px;
+        align-items: center;
+    }
+
+    .banner-heading {
+        color: #3A3A3A;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 40px;
+        margin: 0 auto;
+    }
+
+    .banner-title {
+        color: #3A3A3A;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 500;
+        margin: 0 auto;
+    }
+
+    .banner-btn {
+        margin: 0 auto;
+    }
+    .banner{
+        margin: 0 auto;
+    }
+     .banner-image {
+        /* margin-top: -80px;
+        margin-left: -15px; */
+        width: 360px;
+        height: 360px;
+        /* margin: 0 auto; */
+    }
+
+    .banner-image img {
+        width: 280px;
+        height: 250px;
+        position: relative;
+        left: 40px;
+        top: 60px;
+        
+    } 
+
+    .banner-text {
+        margin-top: -70px;
+    } 
+
     
+
+    .online-store-container {
+        margin-bottom: 40px;
+    }
+
+    .online-store {
+        margin-top: -150px;
+    }
+
+    hr {
+        display: none;
+    }
+
+    .online-logos {
+        gap: 20px;
+        flex-wrap: wrap;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .online-logos img {
+       
+        width: 50px;
+    }
+
+    .collection-container{
+        max-width: 350px;
+        width: 300px;
+    }
+    .collection-content {
+        grid-template-columns: repeat(1, 330px);
+    }
+
+    .details-seeMore {
+        margin-top: 32px;
+        margin-right: 725px;
+        width: 100px;
+    }
+
+    .feature-section {
+        margin: 0 auto;
+        max-width: 300px;
+        text-align: center;
+    }
+
+    .feature-container {
+        flex-direction: column-reverse;
+    }
+    .feature-text{
+       width: 320px;
+       max-width: 400px;
+    }
+
+    .feature-text h2 {
+        color: #0A0826;
+        text-align: center;
+        font-feature-settings: 'liga' off, 'clig' off;
+        font-family: Poppins;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .feature-text p {
+        color: #6C6C6C;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+    }
+    .feature-image{
+        margin-top: -60px;
+        margin-bottom: 50px;
+    }
+    .feature-image img{
+        width: 300px;
+    }
+
 }
